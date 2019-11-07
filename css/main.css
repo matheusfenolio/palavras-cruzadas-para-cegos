@@ -1,0 +1,206 @@
+html, body{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    background: #e6e6e6;
+}
+
+body {
+    line-height:1;
+}
+
+#contentBtn
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.btn
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    text-align: center;
+    padding: 10px;
+    border: 0px;
+    color:#29adfa;
+    font-weight: 500;
+    /*Evita expansao do padding*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#Central
+{
+    min-height: 300px;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    overflow: hidden;
+}
+
+.bloco
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    overflow: hidden;
+    border-radius: 4px;
+    float: left;
+    padding: 1%;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    /*Evita expansao do padding*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px;
+    margin-left: 2px;
+}
+
+.bloco:hover
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    background-color: #f2ff00;
+}
+
+.bloco:focus
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    /*background-color: lightgreen;*/
+}
+
+.borda
+{
+    background-color:#29e86b;
+}
+
+.borda:hover
+{
+    background-color:#29e86b;
+}
+
+.letra
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    background-color:#29adfa;
+}
+
+.pergunta
+{
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    background-color:#0038e8;
+}
+
+.bloqueado
+{
+    background-color:#29e86b;
+}
+
+.bloqueado:hover
+{
+    background-color:#29e86b;
+}
+
+.certo
+{
+    background-color: #8aff00;
+}
+
+.errado
+{
+    background-color: #ffbf00;
+}
+
+.certo:hover
+{
+    background-color: #8aff00;
+}
+
+.errado:hover
+{
+    background-color: #ffbf00;
+}
+
+#OnOff
+{
+    background: url(../img/on.png);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#Novo
+{
+    background: url(../img/plus.png);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#Play
+{
+    background: url(../img/play.png);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#Salvar
+{
+    background: url(../img/save.png);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#Content
+{
+    display: block;
+}
+
+#ConteinerPopUp
+{
+    width: calc(100% - 4px);
+    height:  auto;
+    max-height: 100%;
+    border-radius: 3px;
+    padding: 0 2px 2px 2px;
+    position: absolute;
+    overflow-y: scroll;
+    display: block;
+}
+
+#ConteinerPopUp::-webkit-scrollbar
+{
+    display: none;
+}
+
+.btnPopUp
+{
+    width: 100%;
+    height: 60px;
+    background: #29adfa;
+    border-radius: 3px;
+    margin-top: 2px;
+    text-align: center;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
