@@ -83,7 +83,7 @@ Para acessá-lo basta digitar *IPSERVIOR/phpmyadmin* no browser.
 
 Dentro do proeto existe um arquivo chamado BD.sql, ele contém os scripts prontos para criar a base de dados para o jogo funcionar. Vamos aos procedimentos: 
 
-* Entrar no phpMyAdmin pelo endereço IPSERVIOR/phpmyadmin*.
+* Entrar no phpMyAdmin pelo endereço *IPSERVIDOR/phpmyadmin*.
 * Fazer o login na plataforma. Se você realizou o procedimento apenas seguindo o usário deve ser *root* e o campo senha deve ficar vazio
 * Clicar na aba *SQL* no topo da plataforma.
 * Colar o script no campo de texto.
