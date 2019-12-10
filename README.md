@@ -136,7 +136,7 @@ Agora com seu servidor rodando vamos torna-lo acessível a outras pessoas na int
 
 Agora que você ja tem o servidor e um DDNS para redireciona-lo pela internet, vamos configurar o roteador.
 
-* Configure um NAT com o protocolo TCP na porta 80 redirecionando para o IP do ser servidor, também na porta 80. Caso seu provedor bloqueie a publicaçao da prota 80, basta troca-la por qualquer outra (Ex 5000), redireconando internamente para a porta 80.
+* Configure um NAT com o protocolo TCP na porta 80 redirecionando para o IP do ser servidor, também na porta 80. Caso seu provedor bloqueie a publicaçao da prota 80, basta troca-la por qualquer outra (Ex 5000), redirecionando internamente para a porta 80.
 * Configure o DDNS do NoIP para que seu roteador faça a atualização do IP automaticamente.
 
 *Infelizmente esses passos são diferenciados para cada tipo de equipamento, porém a lógica é a mesma*
