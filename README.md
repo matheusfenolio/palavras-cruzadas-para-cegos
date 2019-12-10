@@ -27,7 +27,7 @@ sudo apt-get upgrade
 
 Feito isso, vamos para as próximas etapas.
   
-#### Apache
+##### Apache
 
 ```
 apt install apache2
@@ -35,7 +35,7 @@ apt install apache2
 
 Após a execução deste comando você poderá acessar a pagina inicial do Apache, digitando o IP do servidor no navegador de qualquer computador na rede.
 
-### PHP
+##### PHP
 
 ```
 apt install -y php php-cli php-common php-gd php-mbstring php-intl php-xml php-zip php-pear libapache2-mod-php
@@ -55,7 +55,7 @@ Feito isso digite dentro do arquivo
 
 Aperte as teclas *CTRL+O* para salvar e *CTRL+X* para fechar o editor. Agora vamos acessar nossa nova pagina, para isso, vá ao navegador novamente e digite o IP do servidor, mas dessa vez você vai adicionar /teste.php, vai ficar assim *IPSERVIDOR/teste.php*. Você deverá ver variás informações referentes a versão instalada do PHP.
 
-### MySQL
+##### MySQL
 
 ```
 apt install -y mysql-server mysql-client php-mysql
@@ -69,7 +69,7 @@ mysql_secure_installation
 
 *Lembre-se de guardar as informações caso precise alterar no projeto*
 
-### phpMyAdmin
+##### phpMyAdmin
 
 Essa é uma ferramenta para facilitar o uso do MySQL, por ele você poderá manejar seu banco de dados.
 
@@ -79,7 +79,7 @@ apt install -y phpmyadmin
 
 Para acessá-lo basta digitar *IPSERVIOR/phpmyadmin* no browser.
 
-### Importação do banco de dados
+#### Importação do banco de dados
 
 Dentro do proeto existe um arquivo chamado BD.sql, ele contém os scripts prontos para criar a base de dados para o jogo funcionar. Vamos aos procedimentos: 
 
@@ -89,7 +89,7 @@ Dentro do proeto existe um arquivo chamado BD.sql, ele contém os scripts pronto
 * Colar o script no campo de texto.
 * Clicar em executar.
 
-### Importação do projeto
+#### Importação do projeto
 
 Feito todos esses passos seu servidor está pronto para hospedar o projeto. Você terá que apagar os dados contido em */var/www/html/test.php*
 
@@ -127,12 +127,12 @@ Pronto. Podemos deixar a pasta vazia lá mesmo, caso haja um update no projeto b
 
 Agora com seu servidor rodando vamos torna-lo acessível a outras pessoas na internet. Para isso vamos utilizar mais algumas ferramentas.
 
-### NoIP
+#### NoIP
 
 * Crie uma conta gratuita em https://www.noip.com/pt-BR/sign-up.
 * Crie um novo DDNS ao seu gosto. Ex: jogoacessivel.ddns.net.
 
-### Configuração de portas
+#### Configuração de portas
 
 Agora que você ja tem o servidor e um DDNS para redireciona-lo pela internet, vamos configurar o roteador.
 
