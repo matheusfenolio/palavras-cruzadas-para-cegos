@@ -141,7 +141,7 @@ Agora que você ja tem o servidor e um DDNS para redireciona-lo pela internet, v
 
 *Infelizmente esses passos são diferenciados para cada tipo de equipamento, porém a lógica é a mesma*
 
-### Acessando o jogo
+#### Acessando o jogo
 
 Com tudo configurado corretamente, você pode acessar seu jogo digitando o DDNS criado no seu browser.
 
